@@ -18,10 +18,12 @@ https://www.weblio.jp/wkpja/content/Microsoft%E3%82%B3%E3%83%BC%E3%83%89%E3%83%9
 NEC特殊文字
 https://www.wdic.org/w/WDIC/NEC%E7%89%B9%E6%AE%8A%E6%96%87%E5%AD%97
 (Shift-JIS: 8740 - 879C)
+丸数字・ローマ数字・合成文字・数学記号
 
 IBM拡張文字
 https://www.wdic.org/w/WDIC/IBM%E6%8B%A1%E5%BC%B5%E6%96%87%E5%AD%97
 (Shift-JIS: FA40 - FC4B)
+漢字360字
 
 NEC選定IBM拡張文字
 https://www.wdic.org/w/WDIC/NEC%E9%81%B8%E5%AE%9AIBM%E6%8B%A1%E5%BC%B5%E6%96%87%E5%AD%97
