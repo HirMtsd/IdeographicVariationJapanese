@@ -1,0 +1,109 @@
+# NEC特殊
+# sjisからunicodeへ
+for i in range(0, 100):
+    c_s = 0x8740 + i
+    try:
+        print("cp932", hex(c_s)[2:], hex(ord(bytes.fromhex(hex(c_s)[2:]).decode('cp932')))[2:],"chr", bytes.fromhex(hex(c_s)[2:]).decode('cp932'))
+    except UnicodeDecodeError as e:
+        print("cp932", hex(c_s)[2:], "")
+---
+cp932 8740 2460 chr ①
+cp932 8741 2461 chr ②
+cp932 8742 2462 chr ③
+cp932 8743 2463 chr ④
+cp932 8744 2464 chr ⑤
+cp932 8745 2465 chr ⑥
+cp932 8746 2466 chr ⑦
+cp932 8747 2467 chr ⑧
+cp932 8748 2468 chr ⑨
+cp932 8749 2469 chr ⑩
+cp932 874a 246a chr ⑪
+cp932 874b 246b chr ⑫
+cp932 874c 246c chr ⑬
+cp932 874d 246d chr ⑭
+cp932 874e 246e chr ⑮
+cp932 874f 246f chr ⑯
+cp932 8750 2470 chr ⑰
+cp932 8751 2471 chr ⑱
+cp932 8752 2472 chr ⑲
+cp932 8753 2473 chr ⑳
+cp932 8754 2160 chr Ⅰ
+cp932 8755 2161 chr Ⅱ
+cp932 8756 2162 chr Ⅲ
+cp932 8757 2163 chr Ⅳ
+cp932 8758 2164 chr Ⅴ
+cp932 8759 2165 chr Ⅵ
+cp932 875a 2166 chr Ⅶ
+cp932 875b 2167 chr Ⅷ
+cp932 875c 2168 chr Ⅸ
+cp932 875d 2169 chr Ⅹ
+cp932 875e
+cp932 875f 3349 chr ㍉
+cp932 8760 3314 chr ㌔
+cp932 8761 3322 chr ㌢
+cp932 8762 334d chr ㍍
+cp932 8763 3318 chr ㌘
+cp932 8764 3327 chr ㌧
+cp932 8765 3303 chr ㌃
+cp932 8766 3336 chr ㌶
+cp932 8767 3351 chr ㍑
+cp932 8768 3357 chr ㍗
+cp932 8769 330d chr ㌍
+cp932 876a 3326 chr ㌦
+cp932 876b 3323 chr ㌣
+cp932 876c 332b chr ㌫
+cp932 876d 334a chr ㍊
+cp932 876e 333b chr ㌻
+cp932 876f 339c chr ㎜
+cp932 8770 339d chr ㎝
+cp932 8771 339e chr ㎞
+cp932 8772 338e chr ㎎
+cp932 8773 338f chr ㎏
+cp932 8774 33c4 chr ㏄
+cp932 8775 33a1 chr ㎡
+cp932 8776
+cp932 8777
+cp932 8778
+cp932 8779
+cp932 877a
+cp932 877b
+cp932 877c
+cp932 877d
+cp932 877e 337b chr ㍻
+cp932 877f
+cp932 8780 301d chr 〝
+cp932 8781 301f chr 〟
+cp932 8782 2116 chr №
+cp932 8783 33cd chr ㏍
+cp932 8784 2121 chr ℡
+cp932 8785 32a4 chr ㊤
+cp932 8786 32a5 chr ㊥
+cp932 8787 32a6 chr ㊦
+cp932 8788 32a7 chr ㊧
+cp932 8789 32a8 chr ㊨
+cp932 878a 3231 chr ㈱
+cp932 878b 3232 chr ㈲
+cp932 878c 3239 chr ㈹
+cp932 878d 337e chr ㍾
+cp932 878e 337d chr ㍽
+cp932 878f 337c chr ㍼
+cp932 8790 2252 chr ≒
+cp932 8791 2261 chr ≡
+cp932 8792 222b chr ∫
+cp932 8793 222e chr ∮
+cp932 8794 2211 chr ∑
+cp932 8795 221a chr √
+cp932 8796 22a5 chr ⊥
+cp932 8797 2220 chr ∠
+cp932 8798 221f chr ∟
+cp932 8799 22bf chr ⊿
+cp932 879a 2235 chr ∵
+cp932 879b 2229 chr ∩
+cp932 879c 222a chr ∪
+cp932 879d
+cp932 879e
+cp932 879f
+cp932 87a0
+cp932 87a1
+cp932 87a2
+cp932 87a3
