@@ -1,0 +1,458 @@
+# NEC選定IBM拡張
+for i in range(0, 450):
+    c_s = 0xed40 + i
+    try:
+        print("cp932", hex(c_s)[2:], hex(ord(bytes.fromhex(hex(c_s)[2:]).decode('cp932')))[2:],"chr", bytes.fromhex(hex(c_s)[2:]).decode('cp932'))
+    except UnicodeDecodeError as e:
+        print("cp932", hex(c_s)[2:], "")
+---
+cp932 ed40 7e8a chr 纊
+cp932 ed41 891c chr 褜
+cp932 ed42 9348 chr 鍈
+cp932 ed43 9288 chr 銈
+cp932 ed44 84dc chr 蓜
+cp932 ed45 4fc9 chr 俉
+cp932 ed46 70bb chr 炻
+cp932 ed47 6631 chr 昱
+cp932 ed48 68c8 chr 棈
+cp932 ed49 92f9 chr 鋹
+cp932 ed4a 66fb chr 曻
+cp932 ed4b 5f45 chr 彅
+cp932 ed4c 4e28 chr 丨
+cp932 ed4d 4ee1 chr 仡
+cp932 ed4e 4efc chr 仼
+cp932 ed4f 4f00 chr 伀
+cp932 ed50 4f03 chr 伃
+cp932 ed51 4f39 chr 伹
+cp932 ed52 4f56 chr 佖
+cp932 ed53 4f92 chr 侒
+cp932 ed54 4f8a chr 侊
+cp932 ed55 4f9a chr 侚
+cp932 ed56 4f94 chr 侔
+cp932 ed57 4fcd chr 俍
+cp932 ed58 5040 chr 偀
+cp932 ed59 5022 chr 倢
+cp932 ed5a 4fff chr 俿
+cp932 ed5b 501e chr 倞
+cp932 ed5c 5046 chr 偆
+cp932 ed5d 5070 chr 偰
+cp932 ed5e 5042 chr 偂
+cp932 ed5f 5094 chr 傔
+cp932 ed60 50f4 chr 僴
+cp932 ed61 50d8 chr 僘
+cp932 ed62 514a chr 兊
+cp932 ed63 5164 chr 兤
+cp932 ed64 519d chr 冝
+cp932 ed65 51be chr 冾
+cp932 ed66 51ec chr 凬
+cp932 ed67 5215 chr 刕
+cp932 ed68 529c chr 劜
+cp932 ed69 52a6 chr 劦
+cp932 ed6a 52c0 chr 勀
+cp932 ed6b 52db chr 勛
+cp932 ed6c 5300 chr 匀
+cp932 ed6d 5307 chr 匇
+cp932 ed6e 5324 chr 匤
+cp932 ed6f 5372 chr 卲
+cp932 ed70 5393 chr 厓
+cp932 ed71 53b2 chr 厲
+cp932 ed72 53dd chr 叝
+cp932 ed73 fa0e chr 﨎
+cp932 ed74 549c chr 咜
+cp932 ed75 548a chr 咊
+cp932 ed76 54a9 chr 咩
+cp932 ed77 54ff chr 哿
+cp932 ed78 5586 chr 喆
+cp932 ed79 5759 chr 坙
+cp932 ed7a 5765 chr 坥
+cp932 ed7b 57ac chr 垬
+cp932 ed7c 57c8 chr 埈
+cp932 ed7d 57c7 chr 埇
+cp932 ed7e fa0f chr 﨏
+cp932 ed7f
+cp932 ed80 fa10 chr 塚
+cp932 ed81 589e chr 增
+cp932 ed82 58b2 chr 墲
+cp932 ed83 590b chr 夋
+cp932 ed84 5953 chr 奓
+cp932 ed85 595b chr 奛
+cp932 ed86 595d chr 奝
+cp932 ed87 5963 chr 奣
+cp932 ed88 59a4 chr 妤
+cp932 ed89 59ba chr 妺
+cp932 ed8a 5b56 chr 孖
+cp932 ed8b 5bc0 chr 寀
+cp932 ed8c 752f chr 甯
+cp932 ed8d 5bd8 chr 寘
+cp932 ed8e 5bec chr 寬
+cp932 ed8f 5c1e chr 尞
+cp932 ed90 5ca6 chr 岦
+cp932 ed91 5cba chr 岺
+cp932 ed92 5cf5 chr 峵
+cp932 ed93 5d27 chr 崧
+cp932 ed94 5d53 chr 嵓
+cp932 ed95 fa11 chr 﨑
+cp932 ed96 5d42 chr 嵂
+cp932 ed97 5d6d chr 嵭
+cp932 ed98 5db8 chr 嶸
+cp932 ed99 5db9 chr 嶹
+cp932 ed9a 5dd0 chr 巐
+cp932 ed9b 5f21 chr 弡
+cp932 ed9c 5f34 chr 弴
+cp932 ed9d 5f67 chr 彧
+cp932 ed9e 5fb7 chr 德
+cp932 ed9f 5fde chr 忞
+cp932 eda0 605d chr 恝
+cp932 eda1 6085 chr 悅
+cp932 eda2 608a chr 悊
+cp932 eda3 60de chr 惞
+cp932 eda4 60d5 chr 惕
+cp932 eda5 6120 chr 愠
+cp932 eda6 60f2 chr 惲
+cp932 eda7 6111 chr 愑
+cp932 eda8 6137 chr 愷
+cp932 eda9 6130 chr 愰
+cp932 edaa 6198 chr 憘
+cp932 edab 6213 chr 戓
+cp932 edac 62a6 chr 抦
+cp932 edad 63f5 chr 揵
+cp932 edae 6460 chr 摠
+cp932 edaf 649d chr 撝
+cp932 edb0 64ce chr 擎
+cp932 edb1 654e chr 敎
+cp932 edb2 6600 chr 昀
+cp932 edb3 6615 chr 昕
+cp932 edb4 663b chr 昻
+cp932 edb5 6609 chr 昉
+cp932 edb6 662e chr 昮
+cp932 edb7 661e chr 昞
+cp932 edb8 6624 chr 昤
+cp932 edb9 6665 chr 晥
+cp932 edba 6657 chr 晗
+cp932 edbb 6659 chr 晙
+cp932 edbc fa12 chr 晴
+cp932 edbd 6673 chr 晳
+cp932 edbe 6699 chr 暙
+cp932 edbf 66a0 chr 暠
+cp932 edc0 66b2 chr 暲
+cp932 edc1 66bf chr 暿
+cp932 edc2 66fa chr 曺
+cp932 edc3 670e chr 朎
+cp932 edc4 f929 chr 朗
+cp932 edc5 6766 chr 杦
+cp932 edc6 67bb chr 枻
+cp932 edc7 6852 chr 桒
+cp932 edc8 67c0 chr 柀
+cp932 edc9 6801 chr 栁
+cp932 edca 6844 chr 桄
+cp932 edcb 68cf chr 棏
+cp932 edcc fa13 chr 﨓
+cp932 edcd 6968 chr 楨
+cp932 edce fa14 chr 﨔
+cp932 edcf 6998 chr 榘
+cp932 edd0 69e2 chr 槢
+cp932 edd1 6a30 chr 樰
+cp932 edd2 6a6b chr 橫
+cp932 edd3 6a46 chr 橆
+cp932 edd4 6a73 chr 橳
+cp932 edd5 6a7e chr 橾
+cp932 edd6 6ae2 chr 櫢
+cp932 edd7 6ae4 chr 櫤
+cp932 edd8 6bd6 chr 毖
+cp932 edd9 6c3f chr 氿
+cp932 edda 6c5c chr 汜
+cp932 eddb 6c86 chr 沆
+cp932 eddc 6c6f chr 汯
+cp932 eddd 6cda chr 泚
+cp932 edde 6d04 chr 洄
+cp932 eddf 6d87 chr 涇
+cp932 ede0 6d6f chr 浯
+cp932 ede1 6d96 chr 涖
+cp932 ede2 6dac chr 涬
+cp932 ede3 6dcf chr 淏
+cp932 ede4 6df8 chr 淸
+cp932 ede5 6df2 chr 淲
+cp932 ede6 6dfc chr 淼
+cp932 ede7 6e39 chr 渹
+cp932 ede8 6e5c chr 湜
+cp932 ede9 6e27 chr 渧
+cp932 edea 6e3c chr 渼
+cp932 edeb 6ebf chr 溿
+cp932 edec 6f88 chr 澈
+cp932 eded 6fb5 chr 澵
+cp932 edee 6ff5 chr 濵
+cp932 edef 7005 chr 瀅
+cp932 edf0 7007 chr 瀇
+cp932 edf1 7028 chr 瀨
+cp932 edf2 7085 chr 炅
+cp932 edf3 70ab chr 炫
+cp932 edf4 710f chr 焏
+cp932 edf5 7104 chr 焄
+cp932 edf6 715c chr 煜
+cp932 edf7 7146 chr 煆
+cp932 edf8 7147 chr 煇
+cp932 edf9 fa15 chr 凞
+cp932 edfa 71c1 chr 燁
+cp932 edfb 71fe chr 燾
+cp932 edfc 72b1 chr 犱
+cp932 edfd
+cp932 edfe
+cp932 edff
+cp932 ee00
+cp932 ee01
+cp932 ee02
+cp932 ee03
+cp932 ee04
+cp932 ee05
+cp932 ee06
+cp932 ee07
+cp932 ee08
+cp932 ee09
+cp932 ee0a
+cp932 ee0b
+cp932 ee0c
+cp932 ee0d
+cp932 ee0e
+cp932 ee0f
+cp932 ee10
+cp932 ee11
+cp932 ee12
+cp932 ee13
+cp932 ee14
+cp932 ee15
+cp932 ee16
+cp932 ee17
+cp932 ee18
+cp932 ee19
+cp932 ee1a
+cp932 ee1b
+cp932 ee1c
+cp932 ee1d
+cp932 ee1e
+cp932 ee1f
+cp932 ee20
+cp932 ee21
+cp932 ee22
+cp932 ee23
+cp932 ee24
+cp932 ee25
+cp932 ee26
+cp932 ee27
+cp932 ee28
+cp932 ee29
+cp932 ee2a
+cp932 ee2b
+cp932 ee2c
+cp932 ee2d
+cp932 ee2e
+cp932 ee2f
+cp932 ee30
+cp932 ee31
+cp932 ee32
+cp932 ee33
+cp932 ee34
+cp932 ee35
+cp932 ee36
+cp932 ee37
+cp932 ee38
+cp932 ee39
+cp932 ee3a
+cp932 ee3b
+cp932 ee3c
+cp932 ee3d
+cp932 ee3e
+cp932 ee3f
+cp932 ee40 72be chr 犾
+cp932 ee41 7324 chr 猤
+cp932 ee42 fa16 chr 猪
+cp932 ee43 7377 chr 獷
+cp932 ee44 73bd chr 玽
+cp932 ee45 73c9 chr 珉
+cp932 ee46 73d6 chr 珖
+cp932 ee47 73e3 chr 珣
+cp932 ee48 73d2 chr 珒
+cp932 ee49 7407 chr 琇
+cp932 ee4a 73f5 chr 珵
+cp932 ee4b 7426 chr 琦
+cp932 ee4c 742a chr 琪
+cp932 ee4d 7429 chr 琩
+cp932 ee4e 742e chr 琮
+cp932 ee4f 7462 chr 瑢
+cp932 ee50 7489 chr 璉
+cp932 ee51 749f chr 璟
+cp932 ee52 7501 chr 甁
+cp932 ee53 756f chr 畯
+cp932 ee54 7682 chr 皂
+cp932 ee55 769c chr 皜
+cp932 ee56 769e chr 皞
+cp932 ee57 769b chr 皛
+cp932 ee58 76a6 chr 皦
+cp932 ee59 fa17 chr 益
+cp932 ee5a 7746 chr 睆
+cp932 ee5b 52af chr 劯
+cp932 ee5c 7821 chr 砡
+cp932 ee5d 784e chr 硎
+cp932 ee5e 7864 chr 硤
+cp932 ee5f 787a chr 硺
+cp932 ee60 7930 chr 礰
+cp932 ee61 fa18 chr 礼
+cp932 ee62 fa19 chr 神
+cp932 ee63 fa1a chr 祥
+cp932 ee64 7994 chr 禔
+cp932 ee65 fa1b chr 福
+cp932 ee66 799b chr 禛
+cp932 ee67 7ad1 chr 竑
+cp932 ee68 7ae7 chr 竧
+cp932 ee69 fa1c chr 靖
+cp932 ee6a 7aeb chr 竫
+cp932 ee6b 7b9e chr 箞
+cp932 ee6c fa1d chr 精
+cp932 ee6d 7d48 chr 絈
+cp932 ee6e 7d5c chr 絜
+cp932 ee6f 7db7 chr 綷
+cp932 ee70 7da0 chr 綠
+cp932 ee71 7dd6 chr 緖
+cp932 ee72 7e52 chr 繒
+cp932 ee73 7f47 chr 罇
+cp932 ee74 7fa1 chr 羡
+cp932 ee75 fa1e chr 羽
+cp932 ee76 8301 chr 茁
+cp932 ee77 8362 chr 荢
+cp932 ee78 837f chr 荿
+cp932 ee79 83c7 chr 菇
+cp932 ee7a 83f6 chr 菶
+cp932 ee7b 8448 chr 葈
+cp932 ee7c 84b4 chr 蒴
+cp932 ee7d 8553 chr 蕓
+cp932 ee7e 8559 chr 蕙
+cp932 ee7f
+cp932 ee80 856b chr 蕫
+cp932 ee81 fa1f chr 﨟
+cp932 ee82 85b0 chr 薰
+cp932 ee83 fa20 chr 蘒
+cp932 ee84 fa21 chr 﨡
+cp932 ee85 8807 chr 蠇
+cp932 ee86 88f5 chr 裵
+cp932 ee87 8a12 chr 訒
+cp932 ee88 8a37 chr 訷
+cp932 ee89 8a79 chr 詹
+cp932 ee8a 8aa7 chr 誧
+cp932 ee8b 8abe chr 誾
+cp932 ee8c 8adf chr 諟
+cp932 ee8d fa22 chr 諸
+cp932 ee8e 8af6 chr 諶
+cp932 ee8f 8b53 chr 譓
+cp932 ee90 8b7f chr 譿
+cp932 ee91 8cf0 chr 賰
+cp932 ee92 8cf4 chr 賴
+cp932 ee93 8d12 chr 贒
+cp932 ee94 8d76 chr 赶
+cp932 ee95 fa23 chr 﨣
+cp932 ee96 8ecf chr 軏
+cp932 ee97 fa24 chr 﨤
+cp932 ee98 fa25 chr 逸
+cp932 ee99 9067 chr 遧
+cp932 ee9a 90de chr 郞
+cp932 ee9b fa26 chr 都
+cp932 ee9c 9115 chr 鄕
+cp932 ee9d 9127 chr 鄧
+cp932 ee9e 91da chr 釚
+cp932 ee9f 91d7 chr 釗
+cp932 eea0 91de chr 釞
+cp932 eea1 91ed chr 釭
+cp932 eea2 91ee chr 釮
+cp932 eea3 91e4 chr 釤
+cp932 eea4 91e5 chr 釥
+cp932 eea5 9206 chr 鈆
+cp932 eea6 9210 chr 鈐
+cp932 eea7 920a chr 鈊
+cp932 eea8 923a chr 鈺
+cp932 eea9 9240 chr 鉀
+cp932 eeaa 923c chr 鈼
+cp932 eeab 924e chr 鉎
+cp932 eeac 9259 chr 鉙
+cp932 eead 9251 chr 鉑
+cp932 eeae 9239 chr 鈹
+cp932 eeaf 9267 chr 鉧
+cp932 eeb0 92a7 chr 銧
+cp932 eeb1 9277 chr 鉷
+cp932 eeb2 9278 chr 鉸
+cp932 eeb3 92e7 chr 鋧
+cp932 eeb4 92d7 chr 鋗
+cp932 eeb5 92d9 chr 鋙
+cp932 eeb6 92d0 chr 鋐
+cp932 eeb7 fa27 chr 﨧
+cp932 eeb8 92d5 chr 鋕
+cp932 eeb9 92e0 chr 鋠
+cp932 eeba 92d3 chr 鋓
+cp932 eebb 9325 chr 錥
+cp932 eebc 9321 chr 錡
+cp932 eebd 92fb chr 鋻
+cp932 eebe fa28 chr 﨨
+cp932 eebf 931e chr 錞
+cp932 eec0 92ff chr 鋿
+cp932 eec1 931d chr 錝
+cp932 eec2 9302 chr 錂
+cp932 eec3 9370 chr 鍰
+cp932 eec4 9357 chr 鍗
+cp932 eec5 93a4 chr 鎤
+cp932 eec6 93c6 chr 鏆
+cp932 eec7 93de chr 鏞
+cp932 eec8 93f8 chr 鏸
+cp932 eec9 9431 chr 鐱
+cp932 eeca 9445 chr 鑅
+cp932 eecb 9448 chr 鑈
+cp932 eecc 9592 chr 閒
+cp932 eecd f9dc chr 隆
+cp932 eece fa29 chr 﨩
+cp932 eecf 969d chr 隝
+cp932 eed0 96af chr 隯
+cp932 eed1 9733 chr 霳
+cp932 eed2 973b chr 霻
+cp932 eed3 9743 chr 靃
+cp932 eed4 974d chr 靍
+cp932 eed5 974f chr 靏
+cp932 eed6 9751 chr 靑
+cp932 eed7 9755 chr 靕
+cp932 eed8 9857 chr 顗
+cp932 eed9 9865 chr 顥
+cp932 eeda fa2a chr 飯
+cp932 eedb fa2b chr 飼
+cp932 eedc 9927 chr 餧
+cp932 eedd fa2c chr 館
+cp932 eede 999e chr 馞
+cp932 eedf 9a4e chr 驎
+cp932 eee0 9ad9 chr 髙
+cp932 eee1 9adc chr 髜
+cp932 eee2 9b75 chr 魵
+cp932 eee3 9b72 chr 魲
+cp932 eee4 9b8f chr 鮏
+cp932 eee5 9bb1 chr 鮱
+cp932 eee6 9bbb chr 鮻
+cp932 eee7 9c00 chr 鰀
+cp932 eee8 9d70 chr 鵰
+cp932 eee9 9d6b chr 鵫
+cp932 eeea fa2d chr 鶴
+cp932 eeeb 9e19 chr 鸙
+cp932 eeec 9ed1 chr 黑
+cp932 eeed
+cp932 eeee
+cp932 eeef 2170 chr ⅰ
+cp932 eef0 2171 chr ⅱ
+cp932 eef1 2172 chr ⅲ
+cp932 eef2 2173 chr ⅳ
+cp932 eef3 2174 chr ⅴ
+cp932 eef4 2175 chr ⅵ
+cp932 eef5 2176 chr ⅶ
+cp932 eef6 2177 chr ⅷ
+cp932 eef7 2178 chr ⅸ
+cp932 eef8 2179 chr ⅹ
+cp932 eef9 ffe2 chr ￢
+cp932 eefa ffe4 chr ￤
+cp932 eefb ff07 chr ＇
+cp932 eefc ff02 chr ＂
+cp932 eefd
+cp932 eefe
+cp932 eeff
+cp932 ef00
+cp932 ef01
