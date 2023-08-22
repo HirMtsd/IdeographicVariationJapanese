@@ -25,6 +25,9 @@ Unicode https://ja.wikipedia.org/wiki/Unicode http://www.unicode.org/charts/
 
 東京文化財研究所 異体字リストhttps://www.tobunken.go.jp/archives/%E7%95%B0%E4%BD%93%E5%AD%97%E3%83%AA%E3%82%B9%E3%83%88/
 
+Unicode East Asia
+https://www.unicode.org/versions/Unicode15.0.0/ch18.pdf
+
 ## 別の問題
 ### 違う文字だが字形が同じ
 杮(u676e)こけら<異体字：𣏕 (u233d5)>、柿(u67ff)かき<異体字：柹(u67f9) 枾(u67be) 𣐈(u23408)>
