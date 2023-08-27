@@ -10,4 +10,4 @@
 |CJK Unified Ideographs Extension G      |30000–3134F |Rare, historic |
 |CJK Unified Ideographs Extension H      |31350–323AF |Rare, historic |
 |CJK Compatibility Ideographs            |F900–FAFF   |Duplicates, unifiable variants, corporate characters |https://unicode.org/charts/PDF/UF900.pdf|
-|CJK Compatibility Ideographs Supplement |2F800–2FA1F |Unifiable variants |
+|CJK Compatibility Ideographs Supplement |2F800–2FA1F |Unifiable variants |https://unicode.org/charts/PDF/U2F800.pdf |
