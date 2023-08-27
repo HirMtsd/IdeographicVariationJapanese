@@ -1,8 +1,8 @@
 |Block |Range |Comment|
 |:--|:--|:--|
-|CJK Unified Ideographs                  |4E00–9FFF   |Common |
-|CJK Unified Ideographs Extension A      |3400–4DBF   |Rare |
-|CJK Unified Ideographs Extension B      |20000–2A6DF |Rare, historic |
+|CJK Unified Ideographs                  |[4E00](./4E00.md)–9FFF   |Common |
+|CJK Unified Ideographs Extension A      |[3400](./3400.md)–4DBF   |Rare |
+|CJK Unified Ideographs Extension B      |[20000](./20000.md)–2A6DF |Rare, historic |
 |CJK Unified Ideographs Extension C      |2A700–2B73F |Rare, historic |
 |CJK Unified Ideographs Extension D      |2B740–2B81F |Uncommon, some in current use |
 |CJK Unified Ideographs Extension E      |2B820–2CEAF |Rare, historic |
