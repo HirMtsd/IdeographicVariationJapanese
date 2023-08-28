@@ -19,7 +19,7 @@ Wiktionary(漢字) https://ja.wiktionary.org/wiki/%E3%82%AB%E3%83%86%E3%82%B4%E3
 
 Wikipedia(字体) https://ja.wikipedia.org/wiki/%E5%AD%97%E4%BD%93
 
-Unicode https://ja.wikipedia.org/wiki/Unicode http://www.unicode.org/charts/
+Unicode https://ja.wikipedia.org/wiki/Unicode http://www.unicode.org/charts/　https://www.unicode.org/charts/unihan.html
 
 常用漢字表 (平成22年内閣告示第2号)
 https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/kanji/
@@ -27,6 +27,10 @@ https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyoka
 https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf
 
 「常用漢字表の字体・字形に関する指針（報告）について」文化庁 https://www.bunka.go.jp/koho_hodo_oshirase/hodohappyo/pdf/2016022902.pdf
+
+人名用漢字
+https://www.moj.go.jp/MINJI/minji86.html
+https://www.moj.go.jp/content/001131003.pdf
 
 東京文化財研究所 異体字リストhttps://www.tobunken.go.jp/archives/%E7%95%B0%E4%BD%93%E5%AD%97%E3%83%AA%E3%82%B9%E3%83%88/
 
