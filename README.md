@@ -21,12 +21,21 @@ Wikipedia(字体) https://ja.wikipedia.org/wiki/%E5%AD%97%E4%BD%93
 
 Unicode https://ja.wikipedia.org/wiki/Unicode http://www.unicode.org/charts/
 
+常用漢字表 (平成22年内閣告示第2号)
+https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/kanji/
+https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyo_20101130.pdf
+https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyobesi_20101130.pdf
+
 「常用漢字表の字体・字形に関する指針（報告）について」文化庁 https://www.bunka.go.jp/koho_hodo_oshirase/hodohappyo/pdf/2016022902.pdf
 
 東京文化財研究所 異体字リストhttps://www.tobunken.go.jp/archives/%E7%95%B0%E4%BD%93%E5%AD%97%E3%83%AA%E3%82%B9%E3%83%88/
 
 Unicode East Asia
 https://www.unicode.org/versions/Unicode15.0.0/ch18.pdf
+
+Unicode® Standard Annex #38
+UNICODE HAN DATABASE (UNIHAN)
+https://www.unicode.org/reports/tr38/tr38-33.html
 
 ## 別の問題
 ### 違う文字だが字形が同じ
