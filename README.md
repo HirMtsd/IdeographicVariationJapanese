@@ -15,6 +15,9 @@ glyphwiki https://glyphwiki.org/
 
 字嗨 http://zi-hi.com/sp/uni/
 
+日本古典籍くずし字データセット
+http://codh.rois.ac.jp/char-shape/
+
 Wiktionary(漢字) https://ja.wiktionary.org/wiki/%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA:%E6%BC%A2%E5%AD%97
 
 Wikipedia(字体) https://ja.wikipedia.org/wiki/%E5%AD%97%E4%BD%93
